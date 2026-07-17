@@ -44,10 +44,10 @@ function execJdeRenket(shinseiId, shinseiCategory) {
         }
 
         // 共通変数
-        var now = new Date();
-        var edbt = formatDate(now, 'YYYYMMDD') + formatDate(now, 'hhnnss');
+        var now      = new Date();
+        var edbt     = formatDate(now, 'YYYYMMDD') + formatDate(now, 'hhnnss');
         var julianDt = toJulian(now);
-        var timeSec = parseFloat(formatDate(now, 'hhnnss'));
+        var timeSec  = parseFloat(formatDate(now, 'hhnnss'));
 
         // ----------------------------------------------------------
         // 2. F0101Z2 INSERT（住所録マスタ）※新規・変更共通
@@ -103,7 +103,7 @@ function insertF0101Z2(conn, shinseiId, w, edbt, julianDt, timeSec, shinseiCateg
         return;
     }
 
-    var an8 = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
+    var an8  = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
     var tnac = (shinseiCategory === 'A') ? 'A' : 'C'; // 新規:A / 変更:C
 
     // 住所（全角スペース後ろ埋め20桁）
@@ -116,18 +116,18 @@ function insertF0101Z2(conn, shinseiId, w, edbt, julianDt, timeSec, shinseiCateg
     if (prefCd === '98') {
         szAdds = '93';
         szAddz = nvl(getMapVal(w, 'ZIP_CODE'), '');
-        szCtr = left(nvl(getMapVal(w, 'COUNTRY_CD'), ''), 2);
+        szCtr  = left(nvl(getMapVal(w, 'COUNTRY_CD'), ''), 2);
     } else {
         szAdds = left(prefCd, 2);
         szAddz = formatZip(nvl(getMapVal(w, 'ZIP_CODE'), ''));
-        szCtr = '';
+        szCtr  = '';
     }
 
     // 電話番号
     var tel1 = nvl(getMapVal(w, 'TEL1'), '');
     var szPh1 = '', szPht1 = '';
     if (tel1 !== '') {
-        szPh1 = tel1 + '-' + nvl(getMapVal(w, 'TEL2'), '') + '-' + nvl(getMapVal(w, 'TEL3'), '');
+        szPh1  = tel1 + '-' + nvl(getMapVal(w, 'TEL2'), '') + '-' + nvl(getMapVal(w, 'TEL3'), '');
         szPht1 = 'TEL';
     }
 
@@ -135,110 +135,110 @@ function insertF0101Z2(conn, shinseiId, w, edbt, julianDt, timeSec, shinseiCateg
     var fax1 = nvl(getMapVal(w, 'FAX1'), '');
     var szPh2 = '', szPht2 = '';
     if (fax1 !== '') {
-        szPh2 = fax1 + '-' + nvl(getMapVal(w, 'FAX2'), '') + '-' + nvl(getMapVal(w, 'FAX3'), '');
+        szPh2  = fax1 + '-' + nvl(getMapVal(w, 'FAX2'), '') + '-' + nvl(getMapVal(w, 'FAX3'), '');
         szPht2 = 'FAX';
     }
 
     var insMap = {
         SHINSEI_ID: shinseiId,
-        SZEDUS: 'SUPPLIER',
-        SZEDBT: edbt,
-        SZEDTN: '1',
-        SZEDLN: 0,
-        SZEDCT: '',
-        SZTYTN: 'JDEAB',
-        SZEDFT: '',
-        SZEDDT: 0,
-        SZDRIN: '',
-        SZEDDL: 0,
-        SZEDSP: 'N',
-        SZPNID: '',
-        SZTNAC: tnac,
-        SZAN8: an8,
-        SZALKY: '',
-        SZTAX: '',
-        SZALPH: nvl(getMapVal(w, 'NAME1'), '') + nvl(getMapVal(w, 'NAME2'), ''),
-        SZDC: nvl(getMapVal(w, 'NAME_KANA'), ''),
-        SZMCU: '10000',
-        SZSIC: '',
-        SZLNGP: '',
-        SZAT1: 'V2',
-        SZCM: '',
-        SZTAXC: '',
-        SZAT2: 'N',
-        SZAT3: 'N',
-        SZAT4: 'N',
-        SZATR: 'N',
-        SZAT5: 'N',
-        SZATP: 'Y',
-        SZATPR: 'N',
-        SZAB3: '',
-        SZATE: 'N',
-        SZSBLI: '',
-        SZEFTB: 0,
-        SZAN81: 0,
-        SZAN82: 0,
-        SZAN83: 0,
-        SZAN84: 0,
-        SZAN86: 0,
-        SZAN85: 0,
-        SZAC01: 'MZ',
-        SZAC02: '', SZAC03: '', SZAC04: '', SZAC05: '',
-        SZAC06: '', SZAC07: '', SZAC08: '', SZAC09: '', SZAC10: '',
-        SZAC11: '', SZAC12: '', SZAC13: '', SZAC14: '', SZAC15: '',
-        SZAC16: '', SZAC17: '', SZAC18: '', SZAC19: '', SZAC20: '',
-        SZAC21: '', SZAC22: '', SZAC23: '', SZAC24: '', SZAC25: '',
-        SZAC26: '', SZAC27: '', SZAC28: '', SZAC29: '', SZAC30: '',
-        SZGLBA: '',
-        SZPTI: 0,
-        SZPDI: 0,
-        SZMSGA: '',
-        SZRMK: '',
-        SZTXCT: '',
-        SZTX2: '',
-        SZALP1: nvl(getMapVal(w, 'NAME_KANA'), ''),
-        SZURCD: '',
-        SZURDT: 0,
-        SZURAT: 0,
-        SZURAB: 0,
-        SZURRF: '',
-        SZMLNM: nvl(getMapVal(w, 'NAME1'), ''),
-        SZMLN1: nvl(getMapVal(w, 'NAME2'), ''),
-        SZADD1: add1,
-        SZADD2: add2,
-        SZADD3: '',
-        SZADD4: '',
-        SZADDZ: szAddz,
-        SZCTY1: '',
-        SZCTR: szCtr,
-        SZADDS: szAdds,
-        SZCOUN: '',
-        SZAR1: '',
-        SZPH1: szPh1,
-        SZPHT1: szPht1,
-        SZAR2: '',
-        SZPH2: szPh2,
-        SZPHT2: szPht2,
-        SZTORG: '',
-        SZUSER: 'AUTOINSERT',
-        SZPID: 'SEND01_A',
-        SZJOBN: 'SEND01_A',
-        SZUPMJ: julianDt,
-        SZTDAY: 0,
-        SZUPMT: timeSec,
-        SZPRGF: '',
-        SZSCCLTP: '',
-        SZPA8: 0,
-        SZTICKER: '',
-        SZEXCHG: '',
-        SZDUNS: '',
-        SZCLASS01: '', SZCLASS02: '', SZCLASS03: '', SZCLASS04: '', SZCLASS05: '',
-        SZNOE: 0,
-        SZGROWTHR: 0,
+        SZEDUS:     'SUPPLIER',
+        SZEDBT:     edbt,
+        SZEDTN:     '1',
+        SZEDLN:     0,
+        SZEDCT:     '',
+        SZTYTN:     'JDEAB',
+        SZEDFT:     '',
+        SZEDDT:     0,
+        SZDRIN:     '',
+        SZEDDL:     0,
+        SZEDSP:     'N',
+        SZPNID:     '',
+        SZTNAC:     tnac,
+        SZAN8:      an8,
+        SZALKY:     '',
+        SZTAX:      '',
+        SZALPH:     nvl(getMapVal(w, 'NAME1'), '') + nvl(getMapVal(w, 'NAME2'), ''),
+        SZDC:       nvl(getMapVal(w, 'NAME_KANA'), ''),
+        SZMCU:      '10000',
+        SZSIC:      '',
+        SZLNGP:     '',
+        SZAT1:      'V2',
+        SZCM:       '',
+        SZTAXC:     '',
+        SZAT2:      'N',
+        SZAT3:      'N',
+        SZAT4:      'N',
+        SZATR:      'N',
+        SZAT5:      'N',
+        SZATP:      'Y',
+        SZATPR:     'N',
+        SZAB3:      '',
+        SZATE:      'N',
+        SZSBLI:     '',
+        SZEFTB:     0,
+        SZAN81:     0,
+        SZAN82:     0,
+        SZAN83:     0,
+        SZAN84:     0,
+        SZAN86:     0,
+        SZAN85:     0,
+        SZAC01:     'MZ',
+        SZAC02:     '', SZAC03: '', SZAC04: '', SZAC05: '',
+        SZAC06:     '', SZAC07: '', SZAC08: '', SZAC09: '', SZAC10: '',
+        SZAC11:     '', SZAC12: '', SZAC13: '', SZAC14: '', SZAC15: '',
+        SZAC16:     '', SZAC17: '', SZAC18: '', SZAC19: '', SZAC20: '',
+        SZAC21:     '', SZAC22: '', SZAC23: '', SZAC24: '', SZAC25: '',
+        SZAC26:     '', SZAC27: '', SZAC28: '', SZAC29: '', SZAC30: '',
+        SZGLBA:     '',
+        SZPTI:      0,
+        SZPDI:      0,
+        SZMSGA:     '',
+        SZRMK:      '',
+        SZTXCT:     '',
+        SZTX2:      '',
+        SZALP1:     nvl(getMapVal(w, 'NAME_KANA'), ''),
+        SZURCD:     '',
+        SZURDT:     0,
+        SZURAT:     0,
+        SZURAB:     0,
+        SZURRF:     '',
+        SZMLNM:     nvl(getMapVal(w, 'NAME1'), ''),
+        SZMLN1:     nvl(getMapVal(w, 'NAME2'), ''),
+        SZADD1:     add1,
+        SZADD2:     add2,
+        SZADD3:     '',
+        SZADD4:     '',
+        SZADDZ:     szAddz,
+        SZCTY1:     '',
+        SZCTR:      szCtr,
+        SZADDS:     szAdds,
+        SZCOUN:     '',
+        SZAR1:      '',
+        SZPH1:      szPh1,
+        SZPHT1:     szPht1,
+        SZAR2:      '',
+        SZPH2:      szPh2,
+        SZPHT2:     szPht2,
+        SZTORG:     '',
+        SZUSER:     'AUTOINSERT',
+        SZPID:      'SEND01_A',
+        SZJOBN:     'SEND01_A',
+        SZUPMJ:     julianDt,
+        SZTDAY:     0,
+        SZUPMT:     timeSec,
+        SZPRGF:     '',
+        SZSCCLTP:   '',
+        SZPA8:      0,
+        SZTICKER:   '',
+        SZEXCHG:    '',
+        SZDUNS:     '',
+        SZCLASS01:  '', SZCLASS02: '', SZCLASS03: '', SZCLASS04: '', SZCLASS05: '',
+        SZNOE:      0,
+        SZGROWTHR:  0,
         SZYEARSTAR: '',
-        SZAEMPGP: '',
-        SZACTIN: '',
-        SZREVRNG: ''
+        SZAEMPGP:   '',
+        SZACTIN:    '',
+        SZREVRNG:   ''
     };
 
     DbUtil.insert(conn, 'F0101Z2', insMap, true);
@@ -255,47 +255,47 @@ function insertF0030(conn, shinseiId, w, julianDt, timeSec) {
         return;
     }
 
-    var an8 = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
+    var an8       = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
     var payMethod = nvl(getMapVal(w, 'PAY_METHOD'), '');
-    var rln = (payMethod === '4') ? nvl(getMapVal(w, 'DENSAI_USER_NO'), '') : '';
-    var ukid = 0;
+    var rln       = (payMethod === '4') ? nvl(getMapVal(w, 'DENSAI_USER_NO'), '') : '';
+    var ukid      = 0;
 
     var insMap = {
         SHINSEI_ID: shinseiId,
-        AYBKTP: 'V',
-        AYTNST: nvl(getMapVal(w, 'BANK_CD'), '') + nvl(getMapVal(w, 'BRANCH_CD'), ''),
-        AYCBNK: nvl(getMapVal(w, 'ACCT_NO'), ''),
-        AYAN8: an8,
-        AYDL1X: nvl(getMapVal(w, 'ACCT_NAME_KANA'), ''),
-        AYAID: '',
-        AYNXTC: 0,
-        AYCHKD: '',
-        AYCRCD: '',
-        AYRLN: rln,
-        AYBACS: 0,
-        AYRFNM: '',
-        AYBAID: '',
-        AYMCU: '',
-        AYSWFT: '',
-        AYADPI: '',
-        AYCHKQ: '',
-        AYATTQ: '',
-        AYDBTQ: '',
-        AYALGN: 0,
-        AYSDTL: 10,
-        AYFLR: 0,
-        AYFLP: 0,
-        AYCKSV: nvl(getMapVal(w, 'ACCT_TYPE'), ''),
-        AYUKID: ukid,
-        AYCTR: 'JP',
-        AYNXTA: 0,
-        AYUPMJ: julianDt,
-        AYUPMT: timeSec,
-        AYPID: 'SEND01_A',
-        AYUSER: 'AUTOINSERT',
-        AYJOBN: 'SEND01_A',
-        AYIBAN: '',
-        AYAN8B: 0
+        AYBKTP:     'V',
+        AYTNST:     nvl(getMapVal(w, 'BANK_CD'), '') + nvl(getMapVal(w, 'BRANCH_CD'), ''),
+        AYCBNK:     nvl(getMapVal(w, 'ACCT_NO'), ''),
+        AYAN8:      an8,
+        AYDL1X:     nvl(getMapVal(w, 'ACCT_NAME_KANA'), ''),
+        AYAID:      '',
+        AYNXTC:     0,
+        AYCHKD:     '',
+        AYCRCD:     '',
+        AYRLN:      rln,
+        AYBACS:     0,
+        AYRFNM:     '',
+        AYBAID:     '',
+        AYMCU:      '',
+        AYSWFT:     '',
+        AYADPI:     '',
+        AYCHKQ:     '',
+        AYATTQ:     '',
+        AYDBTQ:     '',
+        AYALGN:     0,
+        AYSDTL:     10,
+        AYFLR:      0,
+        AYFLP:      0,
+        AYCKSV:     nvl(getMapVal(w, 'ACCT_TYPE'), ''),
+        AYUKID:     ukid,
+        AYCTR:      'JP',
+        AYNXTA:     0,
+        AYUPMJ:     julianDt,
+        AYUPMT:     timeSec,
+        AYPID:      'SEND01_A',
+        AYUSER:     'AUTOINSERT',
+        AYJOBN:     'SEND01_A',
+        AYIBAN:     '',
+        AYAN8B:     0
     };
 
     DbUtil.insert(conn, 'F0030', insMap, true);
@@ -312,9 +312,9 @@ function insertF0401Z1(conn, shinseiId, w, edbt, julianDt, timeSec) {
         return;
     }
 
-    var an8 = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
-    var payMethod = nvl(getMapVal(w, 'PAY_METHOD'), '');
-    var prefCd = nvl(getMapVal(w, 'PREF_CD'), '');
+    var an8        = toLong('6' + nvl(getMapVal(w, 'SUP_CD'), ''));
+    var payMethod  = nvl(getMapVal(w, 'PAY_METHOD'), '');
+    var prefCd     = nvl(getMapVal(w, 'PREF_CD'), '');
     var isOverseas = (prefCd === '98');
 
     // 元帳クラス（銀行コードにより分岐）※要確認
@@ -360,97 +360,97 @@ function insertF0401Z1(conn, shinseiId, w, edbt, julianDt, timeSec) {
 
     var insMap = {
         SHINSEI_ID: shinseiId,
-        VOEDUS: 'SUPPLIER',
-        VOEDBT: edbt,
-        VOEDTN: '1',
-        VOEDLN: 0,
-        VOEDCT: '',
-        VOTYTN: 'JDESM',
-        VOEDFT: '',
-        VOEDDT: 0,
-        VODRIN: '',
-        VOEDDL: 0,
-        VOEDSP: 'N',
-        VOPNID: '',
-        VOTNAC: 'A',
-        VOAN8: an8,
-        VOAPC: voapc,
-        VOMCUP: '',
-        VOOBAP: '',
-        VOAIDP: '',
-        VOKCOP: '',
-        VODCAP: 0,
-        VODTAP: '',
-        VOCRRP: vocrrp,
-        VOTXA2: votxa2,
-        VOEXR2: voexr2,
-        VOHDPY: 'N',
-        VOTXA3: '',
-        VOEXR3: '',
-        VOTAWH: 0,
-        VOPCWH: 0,
-        VOTRAP: left(nvl(getMapVal(w, 'PAY_TERM_CD'), ''), 3),
-        VOSCK: 'N',
-        VOPYIN: vopyin,
-        VOSNTO: 0,
-        VOPLST: 'Y',
-        VOAB1: 'P',
-        VOFLD: 0,
-        VOSQNL: '6',
-        VOCRCA: vocrca,
-        VOAYPD: 0,
-        VOAPPD: 0,
-        VOABAM: 0,
-        VOABA1: 0,
-        VOAPRC: 0,
-        VOMINO: 0,
-        VOMAXO: 0,
-        VOAN8R: 0,
-        VOBADT: 'X',
-        VOCPGP: '',
-        VOORTP: '',
-        VOINMG: '',
-        VOHOLD: '',
-        VOROUT: '',
-        VOSTOP: '',
-        VOZON: '',
-        VOANCR: 0,
-        VOCARS: 0,
-        VODEL1: '',
-        VODEL2: '',
-        VOLTDT: 0,
-        VOFRTH: '',
-        VOINVC: 0,
-        VOWUMD: '',
-        VOVUMD: '',
-        VOPRP5: '',
-        VOEDPM: 'P',
-        VOEDCI: '',
-        VOEDII: '',
-        VOEDQD: 0,
-        VOEDAD: 0,
-        VOEDF1: 'N',
-        VOEDF2: '',
-        VOVI01: '', VOVI02: '', VOVI03: '', VOVI04: '', VOVI05: '',
-        VOMNSC: '1',
-        VOATO: 'N',
-        VORVNT: 'N',
-        VOASN: '',
-        VOCRMD: '',
-        VOAVCH: 'N',
-        VOURCD: '',
-        VOURDT: 0,
-        VOURAT: 0,
-        VOURAB: 0,
-        VOURRF: '',
-        VOTORG: 'AUTOINSERT',
-        VOUSER: 'AUTOINSERT',
-        VOPID: 'SEND01_A',
-        VOJOBN: 'SEND01_A',
-        VOUPMJ: julianDt,
-        VOUPMT: timeSec,
-        VOTDAY: 0,
-        VOATRL: ''
+        VOEDUS:     'SUPPLIER',
+        VOEDBT:     edbt,
+        VOEDTN:     '1',
+        VOEDLN:     0,
+        VOEDCT:     '',
+        VOTYTN:     'JDESM',
+        VOEDFT:     '',
+        VOEDDT:     0,
+        VODRIN:     '',
+        VOEDDL:     0,
+        VOEDSP:     'N',
+        VOPNID:     '',
+        VOTNAC:     'A',
+        VOAN8:      an8,
+        VOAPC:      voapc,
+        VOMCUP:     '',
+        VOOBAP:     '',
+        VOAIDP:     '',
+        VOKCOP:     '',
+        VODCAP:     0,
+        VODTAP:     '',
+        VOCRRP:     vocrrp,
+        VOTXA2:     votxa2,
+        VOEXR2:     voexr2,
+        VOHDPY:     'N',
+        VOTXA3:     '',
+        VOEXR3:     '',
+        VOTAWH:     0,
+        VOPCWH:     0,
+        VOTRAP:     left(nvl(getMapVal(w, 'PAY_TERM_CD'), ''), 3),
+        VOSCK:      'N',
+        VOPYIN:     vopyin,
+        VOSNTO:     0,
+        VOPLST:     'Y',
+        VOAB1:      'P',
+        VOFLD:      0,
+        VOSQNL:     '6',
+        VOCRCA:     vocrca,
+        VOAYPD:     0,
+        VOAPPD:     0,
+        VOABAM:     0,
+        VOABA1:     0,
+        VOAPRC:     0,
+        VOMINO:     0,
+        VOMAXO:     0,
+        VOAN8R:     0,
+        VOBADT:     'X',
+        VOCPGP:     '',
+        VOORTP:     '',
+        VOINMG:     '',
+        VOHOLD:     '',
+        VOROUT:     '',
+        VOSTOP:     '',
+        VOZON:      '',
+        VOANCR:     0,
+        VOCARS:     0,
+        VODEL1:     '',
+        VODEL2:     '',
+        VOLTDT:     0,
+        VOFRTH:     '',
+        VOINVC:     0,
+        VOWUMD:     '',
+        VOVUMD:     '',
+        VOPRP5:     '',
+        VOEDPM:     'P',
+        VOEDCI:     '',
+        VOEDII:     '',
+        VOEDQD:     0,
+        VOEDAD:     0,
+        VOEDF1:     'N',
+        VOEDF2:     '',
+        VOVI01:     '', VOVI02: '', VOVI03: '', VOVI04: '', VOVI05: '',
+        VOMNSC:     '1',
+        VOATO:      'N',
+        VORVNT:     'N',
+        VOASN:      '',
+        VOCRMD:     '',
+        VOAVCH:     'N',
+        VOURCD:     '',
+        VOURDT:     0,
+        VOURAT:     0,
+        VOURAB:     0,
+        VOURRF:     '',
+        VOTORG:     'AUTOINSERT',
+        VOUSER:     'AUTOINSERT',
+        VOPID:      'SEND01_A',
+        VOJOBN:     'SEND01_A',
+        VOUPMJ:     julianDt,
+        VOUPMT:     timeSec,
+        VOTDAY:     0,
+        VOATRL:     ''
     };
 
     DbUtil.insert(conn, 'F0401Z1', insMap, true);
@@ -465,8 +465,8 @@ function getNextUkid(conn) {
         return 1;
     }
     var current = getMapVal(row, 'UKID');
-    var next = current + 2; // 2番置きで採番
-    var updMap = { 採番区分: 'UKID', UKID: next };
+    var next    = current + 2; // 2番置きで採番
+    var updMap  = { 採番区分: 'UKID', UKID: next };
     updMap = DbUtil.setUpdInitData(updMap);
     DbUtil.update(conn, '採番マスタ', updMap, ['採番区分'], true);
     return next;
@@ -507,24 +507,24 @@ function formatZip(zip) {
 
 // 日付フォーマット
 function formatDate(d, fmt) {
-    var y = d.getFullYear();
+    var y  = d.getFullYear();
     var mo = d.getMonth() + 1;
     var dy = d.getDate();
-    var h = d.getHours();
+    var h  = d.getHours();
     var mi = d.getMinutes();
-    var s = d.getSeconds();
+    var s  = d.getSeconds();
     function pad(n) { return n < 10 ? '0' + n : '' + n; }
     if (fmt === 'YYYYMMDD') { return y + pad(mo) + pad(dy); }
-    if (fmt === 'hhnnss') { return pad(h) + pad(mi) + pad(s); }
+    if (fmt === 'hhnnss')   { return pad(h) + pad(mi) + pad(s); }
     return '';
 }
 
 // ジュリアン日付変換（JDE形式: 1YYDDD）
 function toJulian(d) {
-    var year = d.getFullYear();
+    var year  = d.getFullYear();
     var start = new Date(year, 0, 0);
-    var doy = Math.floor((d - start) / (1000 * 60 * 60 * 24));
-    var yy = String(year).substring(2);
-    var ddd = doy < 10 ? '00' + doy : (doy < 100 ? '0' + doy : '' + doy);
+    var doy   = Math.floor((d - start) / (1000 * 60 * 60 * 24));
+    var yy    = String(year).substring(2);
+    var ddd   = doy < 10 ? '00' + doy : (doy < 100 ? '0' + doy : '' + doy);
     return parseFloat('1' + yy + ddd);
 }

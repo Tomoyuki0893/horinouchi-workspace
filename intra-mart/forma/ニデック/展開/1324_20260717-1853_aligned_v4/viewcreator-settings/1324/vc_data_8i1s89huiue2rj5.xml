@@ -1,0 +1,866 @@
+<root datatype="object">
+    <dataview datatype="object">
+        <code datatype="string">8i1s89huiue2rj5</code>
+        <footer datatype="string"/>
+        <header datatype="string"/>
+        <info datatype="string"/>
+        <name datatype="string">J001_量産 購入価格登録申請</name>
+        <richfooter datatype="string"/>
+        <richheader datatype="string"/>
+        <default_name datatype="string">J001_量産 購入価格登録申請</default_name>
+        <default_header datatype="string"/>
+        <default_footer datatype="string"/>
+        <default_richheader datatype="string"/>
+        <default_richfooter datatype="string"/>
+        <querycode datatype="string">8i1s89huiue2qj5</querycode>
+        <update datatype="date">2026/06/23 10:02:26.874</update>
+        <pattern datatype="number">1</pattern>
+        <linecount datatype="number">50</linecount>
+        <programpath datatype="string"/>
+        <linebackcolor datatype="string"/>
+        <border datatype="boolean">true</border>
+        <displayareawidth datatype="number">0</displayareawidth>
+        <headerwordbreakall datatype="boolean">true</headerwordbreakall>
+        <export_flg datatype="boolean">false</export_flg>
+        <category datatype="object">
+            <id datatype="string">jp.co.intra_mart.forma</id>
+            <name datatype="string"/>
+        </category>
+        <createdby datatype="string">Jiang.Tao</createdby>
+        <applicableDspTimezone datatype="string"/>
+        <applicableCsvTimezone datatype="string"/>
+        <displayTimezoneMenu datatype="boolean">false</displayTimezoneMenu>
+        <accessType datatype="string">READABLES</accessType>
+        <localeinfo datatype="object">
+            <ja datatype="object">
+                <name datatype="string">J001_量産 購入価格登録申請</name>
+                <header datatype="string"/>
+                <footer datatype="string"/>
+                <richheader datatype="string"/>
+                <richfooter datatype="string"/>
+            </ja>
+        </localeinfo>
+        <columns datatype="array">
+            <columns-item datatype="object">
+                <selectcode datatype="string">0001</selectcode>
+                <columncode datatype="string">ccd00001</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">3</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">20</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string">forma/normal/view/edit_application_view/{imfr_sd_application_id}?imfr_callback_path=forma/normal/view/list_view/{imfr_sd_application_id}</programpath>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_icon_imfr_edit_action</caption>
+                <displayformulalist datatype="array">
+                    <displayformulalist-item datatype="object">
+                        <evalformula datatype="string">true</evalformula>
+                        <textformat datatype="object">
+                            <css_settings datatype="object"/>
+                            <bold datatype="boolean">false</bold>
+                            <italic datatype="boolean">false</italic>
+                            <underline datatype="boolean">false</underline>
+                            <fontsize datatype="number">0</fontsize>
+                            <color datatype="string"/>
+                            <cellcolor datatype="string"/>
+                        </textformat>
+                        <imgkind datatype="number">1</imgkind>
+                        <imgname datatype="string">im-ui-icon-common-16-update</imgname>
+                    </displayformulalist-item>
+                </displayformulalist>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object">
+                        <text-align datatype="string">center</text-align>
+                    </css_settings>
+                    <displayformulalist datatype="array">
+                        <displayformulalist-item datatype="object">
+                            <evalformula datatype="string">true</evalformula>
+                            <textformat datatype="object">
+                                <css_settings datatype="object"/>
+                                <bold datatype="boolean">false</bold>
+                                <italic datatype="boolean">false</italic>
+                                <underline datatype="boolean">false</underline>
+                                <fontsize datatype="number">0</fontsize>
+                                <color datatype="string"/>
+                                <cellcolor datatype="string"/>
+                            </textformat>
+                            <imgkind datatype="number">1</imgkind>
+                            <imgname datatype="string">im-ui-icon-common-16-update</imgname>
+                        </displayformulalist-item>
+                    </displayformulalist>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Edit</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">編集</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">编辑</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0002</selectcode>
+                <columncode datatype="string">ccd00002</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">3</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">20</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">1</actiontype>
+                <programpath datatype="string">javascript:imfrListView.deleteRecord("{imfr_sd_application_id}", "{imfr_sd_insert_id}", "{imfr_sd_version_no}")</programpath>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_icon_imfr_delete_action</caption>
+                <displayformulalist datatype="array">
+                    <displayformulalist-item datatype="object">
+                        <evalformula datatype="string">true</evalformula>
+                        <textformat datatype="object">
+                            <css_settings datatype="object"/>
+                            <bold datatype="boolean">false</bold>
+                            <italic datatype="boolean">false</italic>
+                            <underline datatype="boolean">false</underline>
+                            <fontsize datatype="number">0</fontsize>
+                            <color datatype="string"/>
+                            <cellcolor datatype="string"/>
+                        </textformat>
+                        <imgkind datatype="number">1</imgkind>
+                        <imgname datatype="string">im-ui-icon-common-16-trashbox</imgname>
+                    </displayformulalist-item>
+                </displayformulalist>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object">
+                        <text-align datatype="string">center</text-align>
+                    </css_settings>
+                    <displayformulalist datatype="array">
+                        <displayformulalist-item datatype="object">
+                            <evalformula datatype="string">true</evalformula>
+                            <textformat datatype="object">
+                                <css_settings datatype="object"/>
+                                <bold datatype="boolean">false</bold>
+                                <italic datatype="boolean">false</italic>
+                                <underline datatype="boolean">false</underline>
+                                <fontsize datatype="number">0</fontsize>
+                                <color datatype="string"/>
+                                <cellcolor datatype="string"/>
+                            </textformat>
+                            <imgkind datatype="number">1</imgkind>
+                            <imgname datatype="string">im-ui-icon-common-16-trashbox</imgname>
+                        </displayformulalist-item>
+                    </displayformulalist>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Delete</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">削除</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">删除</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0003</selectcode>
+                <columncode datatype="string">ccd00003</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">3</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">20</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string">forma/normal/view/refer_application_view/{imfr_sd_application_id}?imfr_callback_path=forma/normal/view/list_view/{imfr_sd_application_id}</programpath>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_icon_imfr_detail_action</caption>
+                <displayformulalist datatype="array">
+                    <displayformulalist-item datatype="object">
+                        <evalformula datatype="string">true</evalformula>
+                        <textformat datatype="object">
+                            <css_settings datatype="object"/>
+                            <bold datatype="boolean">false</bold>
+                            <italic datatype="boolean">false</italic>
+                            <underline datatype="boolean">false</underline>
+                            <fontsize datatype="number">0</fontsize>
+                            <color datatype="string"/>
+                            <cellcolor datatype="string"/>
+                        </textformat>
+                        <imgkind datatype="number">1</imgkind>
+                        <imgname datatype="string">im-ui-icon-common-16-preview</imgname>
+                    </displayformulalist-item>
+                </displayformulalist>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object">
+                        <text-align datatype="string">center</text-align>
+                    </css_settings>
+                    <displayformulalist datatype="array">
+                        <displayformulalist-item datatype="object">
+                            <evalformula datatype="string">true</evalformula>
+                            <textformat datatype="object">
+                                <css_settings datatype="object"/>
+                                <bold datatype="boolean">false</bold>
+                                <italic datatype="boolean">false</italic>
+                                <underline datatype="boolean">false</underline>
+                                <fontsize datatype="number">0</fontsize>
+                                <color datatype="string"/>
+                                <cellcolor datatype="string"/>
+                            </textformat>
+                            <imgkind datatype="number">1</imgkind>
+                            <imgname datatype="string">im-ui-icon-common-16-preview</imgname>
+                        </displayformulalist-item>
+                    </displayformulalist>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Details</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">詳細</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">详细</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0004</selectcode>
+                <columncode datatype="string">ccd00004</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">3</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">20</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">1</actiontype>
+                <programpath datatype="string">javascript:imfrListView.outputPDF("{imfr_sd_application_id}", "{secure_insert_id}")</programpath>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_icon_imfr_print_action</caption>
+                <displayformulalist datatype="array">
+                    <displayformulalist-item datatype="object">
+                        <evalformula datatype="string">true</evalformula>
+                        <textformat datatype="object">
+                            <css_settings datatype="object"/>
+                            <bold datatype="boolean">false</bold>
+                            <italic datatype="boolean">false</italic>
+                            <underline datatype="boolean">false</underline>
+                            <fontsize datatype="number">0</fontsize>
+                            <color datatype="string"/>
+                            <cellcolor datatype="string"/>
+                        </textformat>
+                        <imgkind datatype="number">1</imgkind>
+                        <imgname datatype="string">im-ui-icon-common-16-pdf-export</imgname>
+                    </displayformulalist-item>
+                </displayformulalist>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object">
+                        <text-align datatype="string">center</text-align>
+                    </css_settings>
+                    <displayformulalist datatype="array">
+                        <displayformulalist-item datatype="object">
+                            <evalformula datatype="string">true</evalformula>
+                            <textformat datatype="object">
+                                <css_settings datatype="object"/>
+                                <bold datatype="boolean">false</bold>
+                                <italic datatype="boolean">false</italic>
+                                <underline datatype="boolean">false</underline>
+                                <fontsize datatype="number">0</fontsize>
+                                <color datatype="string"/>
+                                <cellcolor datatype="string"/>
+                            </textformat>
+                            <imgkind datatype="number">1</imgkind>
+                            <imgname datatype="string">im-ui-icon-common-16-pdf-export</imgname>
+                        </displayformulalist-item>
+                    </displayformulalist>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">PDF</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">PDF</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">PDF</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0005</selectcode>
+                <columncode datatype="string">ccd00005</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_insert_id</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_insert_id</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0006</selectcode>
+                <columncode datatype="string">ccd00006</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_application_id</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_application_id</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0007</selectcode>
+                <columncode datatype="string">ccd00007</columncode>
+                <columntype datatype="number">2</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_application_no</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_application_no</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0008</selectcode>
+                <columncode datatype="string">ccd00008</columncode>
+                <columntype datatype="number">2</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_version_no</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_version_no</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0009</selectcode>
+                <columncode datatype="string">ccd00009</columncode>
+                <columntype datatype="number">4</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_create_date</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_create_date</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0010</selectcode>
+                <columncode datatype="string">ccd00010</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_create_user_cd</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_create_user_cd</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0011</selectcode>
+                <columncode datatype="string">ccd00011</columncode>
+                <columntype datatype="number">4</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_record_date</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_record_date</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0012</selectcode>
+                <columncode datatype="string">ccd00012</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_record_user_cd</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_record_user_cd</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0013</selectcode>
+                <columncode datatype="string">ccd00013</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string">imfr_sd_preserve_flag</parametername>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_sd_preserve_flag</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0014</selectcode>
+                <columncode datatype="string">ccd00014</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_shinseisho_no</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Application No.</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">申請書No.</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">申请书No.</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0015</selectcode>
+                <columncode datatype="string">ccd00015</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_syozokubusyo_nm</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">String</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">所属部署</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">字符串</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0016</selectcode>
+                <columncode datatype="string">ccd00016</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_torihikisaki_nm</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Supplier Name</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">取引先名</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">供应商名称</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0017</selectcode>
+                <columncode datatype="string">ccd00017</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_kubun</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Classification</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">区分</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">区分</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0018</selectcode>
+                <columncode datatype="string">ccd00018</columncode>
+                <columntype datatype="number">2</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_torihiki_kakaku_nu</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Transaction Price</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">取引価格</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">交易价格</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0019</selectcode>
+                <columncode datatype="string">ccd00019</columncode>
+                <columntype datatype="number">3</columntype>
+                <visibility datatype="boolean">true</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">99</type>
+                <numberformat datatype="string">#.##</numberformat>
+                <dateformat datatype="string">yyyy/MM/dd HH:mm</dateformat>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string"/>
+                <caption datatype="string">imfr_ud_yuko_kaishi_dt</caption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array">
+                    <internationals-item datatype="object">
+                        <locale datatype="string">en</locale>
+                        <displaylabel datatype="string">Effective Start Date</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">ja</locale>
+                        <displaylabel datatype="string">有効開始日</displaylabel>
+                    </internationals-item>
+                    <internationals-item datatype="object">
+                        <locale datatype="string">zh_CN</locale>
+                        <displaylabel datatype="string">有效开始日</displaylabel>
+                    </internationals-item>
+                </internationals>
+            </columns-item>
+            <columns-item datatype="object">
+                <selectcode datatype="string">0020</selectcode>
+                <columncode datatype="string">frml0</columncode>
+                <columntype datatype="number">1</columntype>
+                <visibility datatype="boolean">false</visibility>
+                <align datatype="number">1</align>
+                <cellwidth datatype="string"/>
+                <limitmax datatype="number">0</limitmax>
+                <limitmin datatype="number">0</limitmin>
+                <limitreverse datatype="boolean">false</limitreverse>
+                <sorttype datatype="number">0</sorttype>
+                <type datatype="number">21</type>
+                <numberformat datatype="string"/>
+                <dateformat datatype="string"/>
+                <parametername datatype="string"/>
+                <actiontarget datatype="string">_self</actiontarget>
+                <actiontype datatype="number">0</actiontype>
+                <programpath datatype="string"/>
+                <formula datatype="string">SECUREPARAMETER("imfr_sd_insert_id", imfr_sd_insert_id)</formula>
+                <formulacaption datatype="string">secure_insert_id</formulacaption>
+                <displayformulalist datatype="array"/>
+                <displaysettings datatype="object">
+                    <css_settings datatype="object"/>
+                    <displayformulalist datatype="array"/>
+                </displaysettings>
+                <internationals datatype="array"/>
+            </columns-item>
+        </columns>
+        <conditions datatype="array">
+            <conditions-item datatype="object">
+                <selectcode datatype="string">0000</selectcode>
+                <columncode datatype="string">ccd00013</columncode>
+                <keyword datatype="string">0</keyword>
+                <max datatype="string"/>
+                <min datatype="string"/>
+                <pattern datatype="number">3</pattern>
+                <reverse datatype="boolean">false</reverse>
+                <columntype datatype="number">1</columntype>
+                <havingtype datatype="number">99</havingtype>
+            </conditions-item>
+        </conditions>
+        <searches datatype="array"/>
+        <predicate datatype="string"/>
+        <keepsearchparameters datatype="boolean">true</keepsearchparameters>
+    </dataview>
+    <acl datatype="object">
+        <users datatype="array"/>
+        <roles datatype="array"/>
+        <departments datatype="array"/>
+        <groups datatype="array"/>
+    </acl>
+</root>

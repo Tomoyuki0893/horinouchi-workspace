@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data_bis_forma xmlns="http://intra-mart.co.jp/foundation/forma/application/export/iap">
+    <data-mappings>
+        <data-mapping>
+            <mapping-id>8i2jqghj4hu8uj5</mapping-id>
+            <web-service-id>undefined</web-service-id>
+            <mapping-json-pass>forma/datamapper/1083/8i1jyiukcmjqoj5/8i2jqghj4hu8uj5/</mapping-json-pass>
+            <mapping-json-file-name>8i2jqghj4hu8uj5.json</mapping-json-file-name>
+        </data-mapping>
+        <data-mapping>
+            <mapping-id>8i2jqgxxihuawj5</mapping-id>
+            <web-service-id>8i1fotsixjfjvj5</web-service-id>
+            <mapping-json-pass>forma/datamapper/1083/8i1jyiukcmjqoj5/8i2jqgxxihuawj5/</mapping-json-pass>
+            <mapping-json-file-name>8i2jqgxxihuawj5.json</mapping-json-file-name>
+        </data-mapping>
+    </data-mappings>
+</data_bis_forma>

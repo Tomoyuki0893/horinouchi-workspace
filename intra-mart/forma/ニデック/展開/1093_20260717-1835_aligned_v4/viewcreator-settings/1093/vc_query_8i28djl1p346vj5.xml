@@ -1,0 +1,70 @@
+<root err="0">
+    <query>
+        <query-code>8i28djl1p346vj5</query-code>
+        <query-name>[FORMA]1093</query-name>
+        <query-info/>
+        <db-source>default</db-source>
+        <createdby>Peng.Wei</createdby>
+        <updated>2026/06/30 11:08</updated>
+        <category>
+            <id>jp.co.intra_mart.forma</id>
+        </category>
+    </query>
+    <column-list>
+        <column caption="imfr_icon_imfr_edit_action" column_cd="ccd00001" column_name="imfr_sd_application_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_icon_imfr_delete_action" column_cd="ccd00002" column_name="imfr_sd_application_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_icon_imfr_detail_action" column_cd="ccd00003" column_name="imfr_sd_application_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_icon_imfr_print_action" column_cd="ccd00004" column_name="imfr_sd_application_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_insert_id" column_cd="ccd00005" column_name="imfr_sd_insert_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_application_id" column_cd="ccd00006" column_name="imfr_sd_application_id" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_application_no" column_cd="ccd00007" column_name="imfr_sd_application_no" column_type="2" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_version_no" column_cd="ccd00008" column_name="imfr_sd_version_no" column_type="2" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_create_date" column_cd="ccd00009" column_name="imfr_sd_create_date" column_type="4" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_create_user_cd" column_cd="ccd00010" column_name="imfr_sd_create_user_cd" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_record_date" column_cd="ccd00011" column_name="imfr_sd_record_date" column_type="4" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_record_user_cd" column_cd="ccd00012" column_name="imfr_sd_record_user_cd" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_sd_preserve_flag" column_cd="ccd00013" column_name="imfr_sd_preserve_flag" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_sinsei_no" column_cd="ccd00014" column_name="imfr_ud_sinsei_no" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syokuban_nu" column_cd="ccd00015" column_name="imfr_ud_syokuban_nu" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syozokubusyo_nm" column_cd="ccd00016" column_name="imfr_ud_syozokubusyo_nm" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syutoku_day" column_cd="ccd00017" column_name="imfr_ud_syutoku_day" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_kouhu_day" column_cd="ccd00018" column_name="imfr_ud_kouhu_day" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syamei" column_cd="ccd00019" column_name="imfr_ud_syamei" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syurui" column_cd="ccd00020" column_name="imfr_ud_syurui" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_menkyobanngou" column_cd="ccd00021" column_name="imfr_ud_menkyobanngou" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_yukou_day" column_cd="ccd00022" column_name="imfr_ud_yukou_day" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syuccyou_start_dt" column_cd="ccd00023" column_name="imfr_ud_syuccyou_start_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_syuccyou_end_dt" column_cd="ccd00024" column_name="imfr_ud_syuccyou_end_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_tourokubanngou" column_cd="ccd00025" column_name="imfr_ud_tourokubanngou" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_tosyoku" column_cd="ccd00026" column_name="imfr_ud_tosyoku" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_hokenkaisya" column_cd="ccd00027" column_name="imfr_ud_hokenkaisya" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_hoken_start_dt" column_cd="ccd00028" column_name="imfr_ud_hoken_start_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_hoken_end_dt" column_cd="ccd00029" column_name="imfr_ud_hoken_end_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_hokensyurui" column_cd="ccd00030" column_name="imfr_ud_hokensyurui" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_taijinbaisyou" column_cd="ccd00031" column_name="imfr_ud_taijinbaisyou" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_taibutubaisyou" column_cd="ccd00032" column_name="imfr_ud_taibutubaisyou" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_toujyousyasyougai" column_cd="ccd00033" column_name="imfr_ud_toujyousyasyougai" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_jikou_dt" column_cd="ccd00034" column_name="imfr_ud_jikou_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_jiko_syousai" column_cd="ccd00035" column_name="imfr_ud_jiko_syousai" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_ihann_dt" column_cd="ccd00036" column_name="imfr_ud_ihann_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_ihann_syousai" column_cd="ccd00037" column_name="imfr_ud_ihann_syousai" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_sinnseiriyu" column_cd="ccd00038" column_name="imfr_ud_sinnseiriyu" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check1" column_cd="ccd00039" column_name="imfr_ud_check1" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check2" column_cd="ccd00040" column_name="imfr_ud_check2" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check3" column_cd="ccd00041" column_name="imfr_ud_check3" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check6" column_cd="ccd00042" column_name="imfr_ud_check6" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check4" column_cd="ccd00043" column_name="imfr_ud_check4" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check5" column_cd="ccd00044" column_name="imfr_ud_check5" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check7" column_cd="ccd00045" column_name="imfr_ud_check7" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_check8" column_cd="ccd00046" column_name="imfr_ud_check8" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_seiyaku_dt" column_cd="ccd00047" column_name="imfr_ud_seiyaku_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_saisyuu_check" column_cd="ccd00048" column_name="imfr_ud_saisyuu_check" column_type="1" sort_type="" table_cd="tcd001"/>
+        <column caption="imfr_ud_sinnseisyouyoukou_dt" column_cd="ccd00049" column_name="imfr_ud_sinnseisyouyoukou_dt" column_type="3" sort_type="" table_cd="tcd001"/>
+    </column-list>
+    <table-list>
+        <table height="100" table_cd="tcd001" table_name="imfr_ut_1093" width="100" x="0" y="0"/>
+    </table-list>
+    <line-list/>
+    <condition-list directwhere="false" orsearch="false"/>
+    <condition-where/>
+</root>

@@ -13,7 +13,12 @@
       "Bash(git push *)",
       "Bash(mkdir -p talon intra-mart/bis intra-mart/workflow intra-mart/logic-designer docs)",
       "Bash(git mv *)",
-      "Bash(mv \"SQLServer案件\" \"talon/SQLServer案件\")"
+      "Bash(mv \"SQLServer案件\" \"talon/SQLServer案件\")",
+      "Bash(git check-attr *)",
+      "Bash(git reset *)",
+      "Bash(rm -rf \"talon/ささえあ\" \"talon/SQLServer案件\")",
+      "Bash(mv \"TALON_Nashorn/SQLServer案件\" \"talon/SQLServer案件\")",
+      "Bash(rmdir \"TALON_Nashorn\")"
     ]
   }
 }

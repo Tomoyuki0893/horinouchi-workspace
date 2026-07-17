@@ -35,3 +35,6 @@ temp/
 _export_tmp/
 _import_tmp/
 _work/
+
+# --- TALON 製品マニュアル(ベンダー提供・大容量・参照用のためGit管理外) -----
+talon/マニュアル/

@@ -1,0 +1,4954 @@
+{
+  "header": {
+    "display_available": true,
+    "item_view_name": {
+      "en": "Header",
+      "ja": "ヘッダー",
+      "zh_CN": "页头"
+    },
+    "label_name": {
+      "en": "Page title",
+      "ja": "私有自動車使用許可申請",
+      "zh_CN": "画面标题"
+    },
+    "left_toolbar_icon_list": [
+      {
+        "icon_id": "imfr-return-icon",
+        "image_class": "im-ui-icon-common-16-back",
+        "icon_label": {
+          "en": "",
+          "ja": "",
+          "zh_CN": ""
+        },
+        "icon_title": {
+          "en": "Back",
+          "ja": "戻る",
+          "zh_CN": "返回"
+        },
+        "separator_display": ""
+      }
+    ],
+    "right_toolbar_icon_list": [],
+    "fixed_available": true
+  },
+  "item_list": [
+    {
+      "item_id": "gziqaxcbgjtf",
+      "item_view_names": {
+        "en": "Square/Rectangle",
+        "ja": "正方形/長方形",
+        "zh_CN": "正方形/长方形"
+      },
+      "item_type": "product_72_shape",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 47,
+        "left": 0,
+        "width": 950,
+        "height": 38,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "border_style": "solid",
+        "border_width": 2,
+        "border_color": "#ADD8E6",
+        "background_color": "#ADD8E6"
+      }
+    },
+    {
+      "item_id": "bvgbzfwhnfle",
+      "item_view_names": {
+        "en": "Label",
+        "ja": "title",
+        "zh_CN": "标签"
+      },
+      "item_type": "product_72_label",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 43,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 36px;\">私有車出張許可申請</span></strong></p>",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "labels_text": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "私有車出張許可申請",
+            "zh_CN": "请输入标签内容"
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "hcliuapcjolq",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 92,
+        "left": 0,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "sinsei_no",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "申請No",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 20,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "12345",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "1",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "申請No.",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "yfonqakvxmxe",
+      "item_view_names": {
+        "en": "Function",
+        "ja": "関数",
+        "zh_CN": "函数"
+      },
+      "item_type": "product_72_func",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 92,
+        "left": 475,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "sinsei_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "Function",
+            "ja": "申請年月日",
+            "zh_CN": "函数"
+          },
+          "input_dbinput": false,
+          "input_properties": {
+            "tab_index": -1,
+            "max_length": 500,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "only_ascii": false,
+            "permit_minus": false,
+            "permit_decimal": false,
+            "decimal_size": 0,
+            "use_comma": false,
+            "decimal_format": null,
+            "decimal_format_account": false,
+            "decimal_format_tenant": false,
+            "border_style": "1",
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Evaluation value",
+            "ja": "申請年月日",
+            "zh_CN": "计算值"
+          },
+          {
+            "en": "",
+            "ja": "",
+            "zh_CN": ""
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "expression": "now()",
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "qdboecjykdiw",
+      "item_view_names": {
+        "en": "Display processing history",
+        "ja": "処理履歴表示",
+        "zh_CN": "处理履历显示"
+      },
+      "item_type": "product_72_imwMatterHistory",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 2040,
+        "left": 0,
+        "width": 950,
+        "height": 80,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "display_item": [
+          "process_date",
+          "node_name",
+          "process_type_name",
+          "auth_user_name",
+          "exec_user_name",
+          "auth_orgz_name",
+          "comment"
+        ]
+      }
+    },
+    {
+      "item_id": "cfwpuafsiqlr",
+      "item_view_names": {
+        "en": "Function",
+        "ja": "関数",
+        "zh_CN": "函数"
+      },
+      "item_type": "product_72_func",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 227,
+        "left": 475,
+        "width": 475,
+        "height": 38,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "Sinseisya_nu",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Function",
+            "ja": "申請者",
+            "zh_CN": "函数"
+          },
+          "input_dbinput": false,
+          "input_properties": {
+            "tab_index": -1,
+            "max_length": 500,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "only_ascii": false,
+            "permit_minus": false,
+            "permit_decimal": false,
+            "decimal_size": 0,
+            "use_comma": false,
+            "decimal_format": null,
+            "decimal_format_account": false,
+            "decimal_format_tenant": false,
+            "border_style": "1",
+            "custom_chk_format": "",
+            "custom_err_msg": "",
+            "custom_input_chk": false
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Evaluation value",
+            "ja": "申請者",
+            "zh_CN": "计算值"
+          },
+          {
+            "en": "",
+            "ja": "",
+            "zh_CN": ""
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "expression": "applyAuthUserName()",
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "ntrqpnlpottf",
+      "item_view_names": {
+        "en": "Button (temporary save modal)",
+        "ja": "ボタン(一時保存モーダル)",
+        "zh_CN": "按钮（临时保存模态框）"
+      },
+      "item_type": "product_80_imwModalTempButton",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "3",
+        "REFERENCE": "3",
+        "POSTSCRIPT": "3"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 2197,
+        "left": 200,
+        "width": 170,
+        "height": 50,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Temporary save",
+            "ja": "一時保存",
+            "zh_CN": "临时保存"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ],
+        "tab_index": [
+          0
+        ],
+        "input_check": true,
+        "display_header": "0",
+        "temp_settings": {
+          "matter_name": "",
+          "process_comment": "",
+          "reboot_modal": true,
+          "interface_control": {
+            "matter_name": {
+              "display": true,
+              "readonly": false
+            },
+            "apply_base_date": {
+              "display": true
+            },
+            "apply_auth_user_cd": {
+              "display": true
+            },
+            "process_comment": {
+              "display": true,
+              "readonly": false,
+              "required": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "item_id": "iefrrxlqbefn",
+      "item_view_names": {
+        "en": "Button (process modal)",
+        "ja": "ボタン(処理モーダル)",
+        "zh_CN": "按钮（处理模态框）"
+      },
+      "item_type": "product_80_imwModalRegisterButton",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "3",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 2197,
+        "left": 0,
+        "width": 170,
+        "height": 50,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Apply",
+            "ja": "申請",
+            "zh_CN": "申请"
+          },
+          {
+            "en": "Re-apply",
+            "ja": "再申請",
+            "zh_CN": "再申请"
+          },
+          {
+            "en": "Update",
+            "ja": "更新",
+            "zh_CN": "更新"
+          },
+          {
+            "en": "Approve",
+            "ja": "承認",
+            "zh_CN": "审批"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ],
+        "tab_index": [
+          0
+        ],
+        "display_header": "0",
+        "apply_settings": {
+          "matter_name": "",
+          "priority_level": "",
+          "process_comment": "",
+          "reboot_modal": true,
+          "interface_control": {
+            "matter_name": {
+              "display": true,
+              "readonly": false
+            },
+            "apply_base_date": {
+              "display": true
+            },
+            "apply_auth_user_cd": {
+              "display": true
+            },
+            "auth_user_department_info": {
+              "display": true,
+              "readonly": false
+            },
+            "priority_level": {
+              "display": true,
+              "readonly": false
+            },
+            "process_comment": {
+              "display": true,
+              "readonly": false,
+              "required": false
+            },
+            "attachment_file": {
+              "display": true
+            },
+            "stamp": {
+              "display": true
+            },
+            "nego": {
+              "display": true
+            }
+          }
+        },
+        "process_settings": {
+          "matter_name": "",
+          "priority_level": "",
+          "process_comment": "",
+          "reboot_modal": true,
+          "interface_control": {
+            "matter_number": {
+              "display": true
+            },
+            "matter_name": {
+              "display": true,
+              "readonly": false
+            },
+            "apply_base_date": {
+              "display": true
+            },
+            "apply_date": {
+              "display": true
+            },
+            "apply_auth_user_cd": {
+              "display": true
+            },
+            "auth_user_cd": {
+              "display": true
+            },
+            "auth_user_department_info": {
+              "display": true,
+              "readonly": false
+            },
+            "priority_level": {
+              "display": true,
+              "readonly": false
+            },
+            "process_comment": {
+              "display": true,
+              "readonly": false,
+              "required": false
+            },
+            "attachment_file": {
+              "display": true
+            },
+            "stamp": {
+              "display": true
+            },
+            "nego": {
+              "display": true
+            }
+          }
+        },
+        "confirm_settings": {
+          "confirm_comment": "",
+          "reboot_modal": true,
+          "interface_control": {
+            "matter_number": {
+              "display": true
+            },
+            "matter_name": {
+              "display": true
+            },
+            "apply_base_date": {
+              "display": true
+            },
+            "apply_date": {
+              "display": true
+            },
+            "apply_auth_user_cd": {
+              "display": true
+            },
+            "auth_user_department_info": {
+              "display": true,
+              "readonly": false
+            },
+            "priority_level": {
+              "display": true
+            },
+            "confirm_comment": {
+              "display": true,
+              "readonly": false,
+              "required": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "item_id": "whhnwdkpkriu",
+      "item_view_names": {
+        "en": "Script",
+        "ja": "スクリプト",
+        "zh_CN": "脚本"
+      },
+      "item_type": "product_72_script",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 320,
+        "left": 1060,
+        "width": 50,
+        "height": 50,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "script": "var style = document.createElement('style');\nstyle.textContent = [\n    '.imui-form > thead > tr > th,',\n    '.imui-form > tbody > tr > th,',\n    '.imui-form > tfoot > tr > th {',\n    '    background: #ADD8E6 !important;',\n    '}',\n    '.imfr_item_table_header {',\n    '    background: #ADD8E6 !important;',\n    '}',\n    '.imfr_input_noframes[readonly] {',\n    '    background-color: transparent !important;',\n    '    background: none !important;',\n    '    border: none !important;',\n　'    box-shadow: none !important;',\n    '}',\n    '[item_type=\"product_72_shape\"] > div {',\n    '    background-color: #ADD8E6 !important;',\n    '}',\n    '#lpqwqdwytozp {',\n    '    background-color: #ADD8E6 !important;',\n    '}'\n].join('');\ndocument.head.appendChild(style);"
+      }
+    },
+    {
+      "item_id": "wmofenkhpuay",
+      "item_view_names": {
+        "en": "Function",
+        "ja": "関数",
+        "zh_CN": "函数"
+      },
+      "item_type": "product_72_func",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 227,
+        "left": 0,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syokuban_nu",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Function",
+            "ja": "職番",
+            "zh_CN": "函数"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": -1,
+            "max_length": 274,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "only_ascii": false,
+            "permit_minus": false,
+            "permit_decimal": false,
+            "decimal_size": 0,
+            "use_comma": false,
+            "decimal_format": null,
+            "decimal_format_account": false,
+            "decimal_format_tenant": false,
+            "border_style": "1",
+            "custom_chk_format": "",
+            "custom_err_msg": "",
+            "custom_input_chk": false
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Evaluation value",
+            "ja": "職番",
+            "zh_CN": "计算值"
+          },
+          {
+            "en": "",
+            "ja": "",
+            "zh_CN": ""
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "expression": "applyAuthUserCode()",
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "vtfpamcghrnm",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 182,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syozokubusyo_nm",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "所属部署",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 500,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "1",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "所属部署",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "jctrdjxlndkc",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 137,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "申請者情報",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "hbavypvqdfxs",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 407,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syutoku_day",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "取得年月日",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "取得年月日",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "nrwlamogkbhv",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 452,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "kouhu_day",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "交付年月日",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "交付年月日",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "fnshcdzpkgif",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 1390,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "チェックリスト",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "njlgwolcobbz",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 805,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syamei",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "車名",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "車名",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "cfgriygpxtgl",
+      "item_view_names": {
+        "en": "Function",
+        "ja": "関数",
+        "zh_CN": "函数"
+      },
+      "item_type": "product_72_func",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 2,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "gamen_cd",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Function",
+            "ja": "画面ID",
+            "zh_CN": "函数"
+          },
+          "input_dbinput": false,
+          "input_properties": {
+            "tab_index": -1,
+            "max_length": 500,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 600,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": true,
+            "bottom_only": false,
+            "border_shadow": false,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "only_ascii": false,
+            "permit_minus": false,
+            "permit_decimal": false,
+            "decimal_size": 0,
+            "use_comma": false,
+            "decimal_format": null,
+            "decimal_format_account": false,
+            "decimal_format_tenant": false,
+            "border_style": "1",
+            "custom_chk_format": "",
+            "custom_err_msg": "",
+            "custom_input_chk": false
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Evaluation value",
+            "ja": "画面ID：",
+            "zh_CN": "计算值"
+          },
+          {
+            "en": "",
+            "ja": "",
+            "zh_CN": ""
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "expression": "\"A007\"",
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "bgdofenwmqol",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 317,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syurui",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "種類",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "種類",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "klqcmsqbtklf",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 362,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "menkyobanngou",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "免許番号",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "免許番号",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "abdogiwvbtun",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 497,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "yukou_day",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "有効年月日",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "有効年月日",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "prsdjeldrnlm",
+      "item_view_names": {
+        "en": "Label",
+        "ja": "ラベル",
+        "zh_CN": "标签"
+      },
+      "item_type": "product_72_label",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 550,
+        "left": 0,
+        "width": 950,
+        "height": 70,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "<p><strong><span style=\"font-size: 18px;\">【ご注意下さい】</span></strong></p>\n<p>出張機関の決まっていない、仮申請は許可できません(申請例：社有車が空いてない事が多いから等)</p>\n<p>出張機関が決まっていて、且つ社有車がない等の私有車を使用する理由がある事。</p>",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "labels_text": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "【ご注意下さい】\n出張機関の決まっていない、仮申請は許可できません(申請例：社有車が空いてない事が多いから等)\n出張機関が決まっていて、且つ社有車がない等の私有車を使用する理由がある事。",
+            "zh_CN": "请输入标签内容"
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "rqclwwvithmy",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 272,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "社有者使用許可申請情報",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "qkizhnzzbbxu",
+      "item_view_names": {
+        "en": "Term",
+        "ja": "期間",
+        "zh_CN": "期间"
+      },
+      "item_type": "product_72_terms",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 670,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "syuccyou_start_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "StartDate",
+            "ja": "出張期間_開始日",
+            "zh_CN": "开始日"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 100,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {},
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        },
+        {
+          "input_id": "syuccyou_end_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "EndDate",
+            "ja": "出張期間_終了日",
+            "zh_CN": "结束日"
+          },
+          "input_dbinput": true,
+          "date_format": "yyyy/MM/dd",
+          "input_properties": {
+            "tab_index": 0,
+            "input_field_size": 100,
+            "initial_date": false,
+            "required": true,
+            "input_enable": false,
+            "input_clear_button": false,
+            "input_background_color": "",
+            "border_style": "0",
+            "border_shadow": true,
+            "no_frames": false,
+            "bottom_only": false,
+            "border_color": "",
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {},
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Term",
+            "ja": "出張期間",
+            "zh_CN": "期间"
+          },
+          {
+            "en": "-",
+            "ja": "-",
+            "zh_CN": "-"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {},
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "irasugoklgxb",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 850,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "tourokubanngou",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "登録番号",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "登録番号",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "ytcgmktumxnt",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 895,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "tosyoku",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "塗色",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "塗色",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "kgpgiabniqwi",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 985,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "hokenkaisya",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "保険会社",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 730,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "保険会社",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "njeesxcttfws",
+      "item_view_names": {
+        "en": "Term",
+        "ja": "期間",
+        "zh_CN": "期间"
+      },
+      "item_type": "product_72_terms",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1030,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "hoken_start_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "StartDate",
+            "ja": "保険期間_開始日",
+            "zh_CN": "开始日"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 100,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {},
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        },
+        {
+          "input_id": "hoken_end_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "EndDate",
+            "ja": "保険期間_終了日",
+            "zh_CN": "结束日"
+          },
+          "input_dbinput": true,
+          "date_format": "yyyy/MM/dd",
+          "input_properties": {
+            "tab_index": 0,
+            "input_field_size": 100,
+            "initial_date": false,
+            "required": true,
+            "input_enable": false,
+            "input_clear_button": false,
+            "input_background_color": "",
+            "border_style": "0",
+            "border_shadow": true,
+            "no_frames": false,
+            "bottom_only": false,
+            "border_color": "",
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {},
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Term",
+            "ja": "保険期間",
+            "zh_CN": "期间"
+          },
+          {
+            "en": "-",
+            "ja": "-",
+            "zh_CN": "-"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {},
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          },
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "hepvhczfgmyx",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1075,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "hokensyurui",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "保険種類",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "保険種類",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "acvznimbpgla",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 625,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "私有車使用許可申請書",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "qjguxrpzbgbb",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1120,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "taijinbaisyou",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "対人賠償",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 40,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "対人賠償",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "xuvuoejzmdyf",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1165,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "taibutubaisyou",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "対物賠償",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "対物賠償",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "cznhpukhlcip",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1210,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "toujyousyasyougai",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "搭乗者傷害",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "搭乗者傷害",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "ebwiotxflkyv",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 760,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "あなたの私有車について",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "yqwqjvwurysb",
+      "item_view_names": {
+        "en": "Date",
+        "ja": "日付",
+        "zh_CN": "日期"
+      },
+      "item_type": "product_72_calendar",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1300,
+        "left": 0,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "jikou_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "Date",
+            "ja": "事故",
+            "zh_CN": "日期"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Date",
+            "ja": "事故　　年月日",
+            "zh_CN": "日期"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "glxpqzsrcsiy",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1300,
+        "left": 475,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "jiko_syousai",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "事故内容",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 250,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "内容",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "jeuwhoppiwyj",
+      "item_view_names": {
+        "en": "Date",
+        "ja": "日付",
+        "zh_CN": "日期"
+      },
+      "item_type": "product_72_calendar",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1345,
+        "left": 0,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "ihann_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "Date",
+            "ja": "違反",
+            "zh_CN": "日期"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Date",
+            "ja": "違反　　年月日",
+            "zh_CN": "日期"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "xqsdldvfevfv",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1345,
+        "left": 475,
+        "width": 475,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "ihann_syousai",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "違反内容",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 250,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "内容",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "ufbzeanxyjme",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 940,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "加入している自動車保険について",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "ryxvuoxcpebm",
+      "item_view_names": {
+        "en": "String",
+        "ja": "文字列",
+        "zh_CN": "字符串"
+      },
+      "item_type": "product_72_textbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 715,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "sinnseiriyu",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "String",
+            "ja": "申請理由",
+            "zh_CN": "字符串"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 60,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 730,
+            "labels": [],
+            "initial_value": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "only_ascii": false,
+            "border_style": "0",
+            "custom_input_chk": false,
+            "custom_chk_format": "",
+            "custom_err_msg": ""
+          }
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Text",
+            "ja": "申請理由",
+            "zh_CN": "文本"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "fraoacoviowy",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1435,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check1",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト①",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "勤続2年以上、かつ満年齢20歳以上である",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト①"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "lplkimvovbxi",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1465,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check2",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト②",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "運転免許取得後1年以上、かつ運転歴1年以上である。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト②"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "zwosqkmylutc",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1495,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check3",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト③",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "過去1年以内において、行政処分を受ける等の重大な事故、違反歴がない。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト③"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "pcuzvkhrkitg",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1615,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check6",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト⑥",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "運転者本人を被保険者とする次の任意自動車保険に加入している車両である。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト⑥"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "yvipiqaimsdt",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1525,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check4",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト④",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "運転者本人が所有している車両を運転する。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト④"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "gsgtnjefdkez",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1555,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check5",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト⑤",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "法令に適合し、法定の点検、整備がなされている車両である。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト⑤"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "qnkapqlefuse",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1675,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check7",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト⑦",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "私有車使用許可の有効時限は、1年間とする。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト⑦"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "kpfflhymtoca",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 1255,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "過去1年間の事故・違反履について",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    },
+    {
+      "item_id": "rxbxbpjdyccg",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1705,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "check8",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "チェックリスト⑧",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "原則として、社有車を使用するようにする。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "チェックリスト⑧"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "bcqqshbhodzz",
+      "item_view_names": {
+        "en": "Label",
+        "ja": "ラベル",
+        "zh_CN": "标签"
+      },
+      "item_type": "product_72_label",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 1645,
+        "left": 5,
+        "width": 860,
+        "height": 15,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "<p>対人→1億円以上　対物→500万以上　　搭乗者→1000万円以上</p>",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "labels_text": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "対人→1億円以上　対物→500万以上　　搭乗者→1000万円以上",
+            "zh_CN": "请输入标签内容"
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "hxcmzvjlndps",
+      "item_view_names": {
+        "en": "Label",
+        "ja": "ラベル",
+        "zh_CN": "标签"
+      },
+      "item_type": "product_72_label",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 1780,
+        "left": 0,
+        "width": 950,
+        "height": 120,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "<p><span style=\"font-size: 18px;\">総務部長殿</span></p>\n<p><span style=\"font-size: 18px;\">このたび、私有車の業務使用いたしたく、申請書の通りお願いいたします。</span></p>\n<p><span style=\"font-size: 18px;\">ご許可のうえは、就職規則、私有車出張規定を遵守いたします。</span></p>\n<p><span style=\"font-size: 18px;\">万が一、これに違反し会社に損害をおかけしたときは、その損害金の全額を私の責任おいて弁済いたします。</span></p>",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "labels_text": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "総務部長殿\nこのたび、私有車の業務使用いたしたく、申請書の通りお願いいたします。\nご許可のうえは、就職規則、私有車出張規定を遵守いたします。\n万が一、これに違反し会社に損害をおかけしたときは、その損害金の全額を私の責任おいて弁済いたします。",
+            "zh_CN": "请输入标签内容"
+          }
+        ]
+      }
+    },
+    {
+      "item_id": "hgkrkgkitbqw",
+      "item_view_names": {
+        "en": "Date",
+        "ja": "日付",
+        "zh_CN": "日期"
+      },
+      "item_type": "product_72_calendar",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1900,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "seiyaku_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "Date",
+            "ja": "誓約日",
+            "zh_CN": "日期"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Date",
+            "ja": "誓約日",
+            "zh_CN": "日期"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "eddbkfhaoske",
+      "item_view_names": {
+        "en": "Checkbox",
+        "ja": "チェックボックス",
+        "zh_CN": "复选框"
+      },
+      "item_type": "product_80_checkbox",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1951,
+        "left": 0,
+        "width": 950,
+        "height": 20,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "saisyuu_check",
+          "input_data_type": "0",
+          "input_view_names": {
+            "en": "Checkbox",
+            "ja": "最終チェック",
+            "zh_CN": "复选框"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 10,
+            "min_length": 0,
+            "required": true,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": "",
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 13,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": true,
+            "input_enable": false,
+            "row_width": 100
+          },
+          "property_setting": [
+            {
+              "display_names": {
+                "en": "The item name is undefined",
+                "ja": "上記の内容に同意します。",
+                "zh_CN": "项目名未定义"
+              },
+              "send_value": "1"
+            }
+          ]
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Checkbox",
+            "ja": "",
+            "zh_CN": "复选框"
+          }
+        ],
+        "label_size": [
+          0
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "column_width": 750,
+        "input_orientation": "horizontal",
+        "input_view_names": {
+          "ja": "最終チェック"
+        },
+        "row_number": 1,
+        "column_number": "",
+        "ui_theme": "default"
+      }
+    },
+    {
+      "item_id": "rcbwqnajiwca",
+      "item_view_names": {
+        "en": "Date",
+        "ja": "日付",
+        "zh_CN": "日期"
+      },
+      "item_type": "product_72_calendar",
+      "item_view_type": {
+        "REGISTRATION": "1",
+        "EDIT": "1",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": true,
+      "style": {
+        "top": 1981,
+        "left": 0,
+        "width": 950,
+        "height": 35,
+        "zindex": null
+      },
+      "input_list": [
+        {
+          "input_id": "sinnseisyouyoukou_dt",
+          "input_data_type": "2",
+          "input_view_names": {
+            "en": "Date",
+            "ja": "申請書の有効期限",
+            "zh_CN": "日期"
+          },
+          "input_dbinput": true,
+          "input_properties": {
+            "tab_index": 0,
+            "max_length": 0,
+            "min_length": 0,
+            "required": false,
+            "input_field_size": 150,
+            "labels": [],
+            "initial_value": {},
+            "input_background_color": "",
+            "border_color": "",
+            "no_frames": false,
+            "bottom_only": false,
+            "border_shadow": true,
+            "input_font_color": "",
+            "input_font_size": 12,
+            "input_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "input_font_bold": false,
+            "input_font_italic": false,
+            "input_font_underline": false,
+            "label_wrap": true,
+            "initial_date": false,
+            "input_enable": false,
+            "input_clear_button": false,
+            "border_style": "0"
+          },
+          "date_format": "yyyy/MM/dd"
+        }
+      ],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Date",
+            "ja": "申請書の有効期限",
+            "zh_CN": "日期"
+          }
+        ],
+        "label_size": [
+          150
+        ],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 12,
+            "label_font_family": {
+              "en": "",
+              "ja": "",
+              "zh_CN": ""
+            },
+            "label_font_bold": true,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "ui_theme": "iap"
+      }
+    },
+    {
+      "item_id": "xuwculaupskq",
+      "item_view_names": {
+        "en": "Headline",
+        "ja": "見出し",
+        "zh_CN": "标题"
+      },
+      "item_type": "product_80_header",
+      "item_view_type": {
+        "REGISTRATION": "2",
+        "EDIT": "2",
+        "REFERENCE": "2",
+        "POSTSCRIPT": "2"
+      },
+      "item_exist_dbinput": false,
+      "style": {
+        "top": 1731,
+        "left": 0,
+        "width": 950,
+        "height": 30,
+        "zindex": null
+      },
+      "input_list": [],
+      "item_properties": {
+        "labels": [
+          {
+            "en": "Fill in the contents of the label",
+            "ja": "＜誓約書＞",
+            "zh_CN": "请输入标签内容"
+          }
+        ],
+        "label_size": [],
+        "label_styles": [
+          {
+            "label_background_color": "",
+            "label_font_color": "",
+            "label_font_size": 13,
+            "label_font_family": {},
+            "label_font_bold": false,
+            "label_font_italic": false,
+            "label_font_underline": false,
+            "label_wrap": false
+          }
+        ],
+        "label_level": [
+          1
+        ]
+      }
+    }
+  ],
+  "footer": {
+    "display_available": true
+  },
+  "event": {
+    "event_setting_list": [],
+    "action_setting_list": {},
+    "table_event_setting_list": [],
+    "table_action_setting_list": {},
+    "form_action_setting_list": {
+      "8i2clawbydqnpj5": {
+        "load": [
+          {
+            "actionType": "controlInput",
+            "note": "",
+            "conditionExpression": "",
+            "errHandling": "0",
+            "controlSetting": [
+              {
+                "mode": "invalid",
+                "tableId": "",
+                "inputId": "sinsei_no",
+                "inputItemType": "",
+                "triggerSelf": false
+              },
+              {
+                "mode": "invalid",
+                "tableId": "",
+                "inputId": "syozokubusyo_nm",
+                "inputItemType": "",
+                "triggerSelf": false
+              }
+            ],
+            "indicator_flag": false
+          }
+        ]
+      }
+    }
+  },
+  "sp_item_list": [],
+  "shared_resource": {
+    "display_available": false,
+    "use_lock": false,
+    "display_position": "bottom-right"
+  }
+}
