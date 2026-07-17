@@ -1,0 +1,18 @@
+# OS / エディタ
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# OneDrive 同期の一時ファイル
+*.tmp
+~$*
+
+# ログ・一時出力
+*.log
+__probe.txt
+
+# IDE
+.vscode/
+.idea/
