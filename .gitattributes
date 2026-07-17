@@ -1,0 +1,50 @@
+# ============================================================================
+#  .gitattributes  ―  horinouchi-workspace
+#  文字コード UTF-8 / 改行 CRLF(Windows・TALON・Intra-mart 環境に統一)
+# ============================================================================
+
+# 既定: テキストかバイナリかを Git に自動判定させる
+* text=auto
+
+# --- テキストソース(改行を CRLF に統一) ------------------------------------
+*.js    text eol=crlf
+*.ts    text eol=crlf
+*.html  text eol=crlf
+*.htm   text eol=crlf
+*.css   text eol=crlf
+*.json  text eol=crlf
+*.xml   text eol=crlf
+*.sql   text eol=crlf
+*.csv   text eol=crlf
+*.txt   text eol=crlf
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+# ドキュメント類は LF(GitHub 表示・他ツール互換のため)
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# --- Intra-mart 定義エクスポート -------------------------------------------
+# XML/JSON はテキスト。機械生成で差分がノイズになりやすい場合は
+# 対象を個別に「-diff」指定してレビューから外すこともできる（必要時に追記）。
+
+# --- バイナリ(改行変換・テキスト差分をしない) ------------------------------
+*.zip   binary
+*.jar   binary
+*.war   binary
+*.ear   binary
+*.class binary
+*.iba   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.xls   binary
+*.xlsx  binary
+*.doc   binary
+*.docx  binary
+*.ppt   binary
+*.pptx  binary
