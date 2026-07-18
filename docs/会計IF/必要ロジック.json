@@ -1,0 +1,503 @@
+{
+ "screens": [
+  {
+   "screen": "部品仕入単価",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "GET",
+     "route": "tmh_acif_parts_purchase_unit_prices",
+     "flowId": "01KX9J8N493AYXYKRJGCHGZ1DP",
+     "flowName": "部品仕入単価マスタ一覧取得",
+     "category": "会計IF / 部品仕入単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": null,
+     "method": "GET",
+     "route": "tmh_acif_accounting_interface_periods",
+     "flowId": "01KSHRTBEE5TJRCR8EAQNZP6Z6",
+     "flowName": "会計IF期間マスタデータ取得",
+     "category": "会計IF / 共通",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_acif_parts_purchase_unit_price/check",
+     "flowId": "01KTXBVQ4X0J2HEZWSR7YEJSND",
+     "flowName": "部品仕入単価チェック",
+     "category": "会計IF / 部品仕入単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_acif_parts_purchase_unit_price/new",
+     "flowId": "01KTMZYRSE71RE9XVCQNGBH21K",
+     "flowName": "部品仕入単価登録",
+     "category": "会計IF / 部品仕入単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1,
+      "INSERT": 1,
+      "UPDATE": 1
+     }
+    },
+    {
+     "op": "update",
+     "method": "PUT",
+     "route": "tmh_acif_parts_purchase_unit_prices/edit",
+     "flowId": "01KXN5KHTHWX0RMWZ1MEW3CWC7",
+     "flowName": "部品仕入単価データ更新",
+     "category": "会計IF / 部品仕入単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "UPDATE": 1
+     }
+    },
+    {
+     "op": "order_errors",
+     "method": "GET",
+     "route": "tmh_customer_orders",
+     "flowId": "01KNNXSAN8BM1JMS0T0QEA5M58",
+     "flowName": "【受注】検索",
+     "category": "社内アプリケーション / 受注出荷ドメイン / 製品出荷",
+     "transaction": true,
+     "sqlKinds": {}
+    }
+   ],
+   "confirmDialogs": 2
+  },
+  {
+   "screen": "売掛金買掛金訂正",
+   "flowCalls": [],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "TMC買掛金不照合追加",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01KS4HA2DWS7SGJ8HY1QAN070B/getList",
+     "flowId": "01KS4HA2DWS7SGJ8HY1QAN070B",
+     "flowName": "TMC買掛金不照合追加入力データ検索",
+     "category": "会計IF / TMC買掛金不照合追加入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "check/01KVT9AXDDPX6WFKXP9P1VX2QV",
+     "flowId": "01KVT9AXDDPX6WFKXP9P1VX2QV",
+     "flowName": "TMC売掛金不照合追加入力データチェック",
+     "category": "会計IF / TMC売掛金不照合追加入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 3
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "01JZ9F9D0K3R2P7Y8M4N5Q6T1V/check",
+     "flowId": "01JZ9F9D0K3R2P7Y8M4N5Q6T1V",
+     "flowName": "TMC買掛金不照合追加入力データ登録",
+     "category": "会計IF / TMC買掛金不照合追加入力",
+     "transaction": true,
+     "sqlKinds": {
+      "INSERT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 1
+  },
+  {
+   "screen": "部品売上単価",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01KT6B414B6WSSK30KGDQVE86B/getList",
+     "flowId": "01KT5NYWR0DRZMG9X7DMQB6R6R",
+     "flowName": "部品売上単価マスタ一覧取得",
+     "category": "会計IF / 部品売上単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "特調たな卸単価未決",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01J0Z82Q8M6VYF7R2B1C9NXD4E/getList",
+     "flowId": "01J0Z82Q8M6VYF7R2B1C9NXD4E",
+     "flowName": "検索データ取得",
+     "category": "会計IF / 特調たな卸単価未決入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "部品売上原価調整",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01J0Z86M9X4K2Q5R7T8Y3B1CDE/getList",
+     "flowId": "01J0Z86M9X4K2Q5R7T8Y3B1CDE",
+     "flowName": "検索データ取得",
+     "category": "会計IF / 部品売上原価調整入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "仕掛品出庫",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01J0Z8G6Q4M7W2K9R5T3Y8V1H0/getList",
+     "flowId": "01J0Z8G6Q4M7W2K9R5T3Y8V1H0",
+     "flowName": "仕掛品出庫入力データ検索",
+     "category": "会計IF / 仕掛品出庫入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "order_errors",
+     "method": "GET",
+     "route": "tmh_customer_orders",
+     "flowId": "01KNNXSAN8BM1JMS0T0QEA5M58",
+     "flowName": "【受注】検索",
+     "category": "社内アプリケーション / 受注出荷ドメイン / 製品出荷",
+     "transaction": true,
+     "sqlKinds": {}
+    },
+    {
+     "op": "update",
+     "method": "GET",
+     "route": "tmh_acif_work_in_progress_issue_quantities/update",
+     "flowId": "01JZA15X7M4N8P2Q5R9STVWXYZ",
+     "flowName": "仕掛品出庫入力データ更新",
+     "category": "会計IF / 仕掛品出庫入力",
+     "transaction": true,
+     "sqlKinds": {
+      "UPDATE": 1
+     }
+    }
+   ],
+   "confirmDialogs": 1
+  },
+  {
+   "screen": "部品仕入返品",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01KV4DC1CTNBN3BD5XYMS4KY6B/getList",
+     "flowId": "01KV4DC1CTNBN3BD5XYMS4KY6B",
+     "flowName": "部品仕入返品一覧取得",
+     "category": "会計IF / 部品仕入返品入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "資材差額調整・鋼鈑精算金",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "GET",
+     "route": "tmh_acif_price_difference_adjustment_steel_settlements",
+     "flowId": "01KSF9359YM6JQVTK2G21PKP7M",
+     "flowName": "資材差額調整・鋼鈑精算金入力一覧データ検索",
+     "category": "会計IF / 資材差額調整・鋼鈑精算金入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": null,
+     "method": "GET",
+     "route": "tmh_acif_accounting_interface_periods",
+     "flowId": "01KSHRTBEE5TJRCR8EAQNZP6Z6",
+     "flowName": "会計IF期間マスタデータ取得",
+     "category": "会計IF / 共通",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "delete",
+     "method": "POST",
+     "route": "tmh_acif_price_difference_adjustment_steel_settlements/delete",
+     "flowId": "01KVSSKN1GCCEPW4XHP6ZFXD4S",
+     "flowName": "資材差額調整・鋼鈑精算金入力データ削除",
+     "category": "会計IF / 資材差額調整・鋼鈑精算金入力",
+     "transaction": true,
+     "sqlKinds": {
+      "DELETE": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_acif_price_difference_adjustment_steel_settlements/check",
+     "flowId": "01KVF53MPRX6ZESB119SDRWPZQ",
+     "flowName": "資材差額調整・鋼鈑精算金データチェック",
+     "category": "会計IF / 資材差額調整・鋼鈑精算金入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 3
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_acif_price_difference_adjustment_steel_settlements/new",
+     "flowId": "01KVDC1D5CNB001HFTBN6DHRKN",
+     "flowName": "資材差額調整・鋼鈑精算金入力データ登録",
+     "category": "会計IF / 資材差額調整・鋼鈑精算金入力",
+     "transaction": true,
+     "sqlKinds": {
+      "INSERT": 1
+     }
+    },
+    {
+     "op": "update",
+     "method": "PUT",
+     "route": "tmh_acif_price_difference_adjustment_steel_settlements/edit",
+     "flowId": "01KVDAC6F6DV405QWT1X158M2W",
+     "flowName": "資材差額調整・鋼鈑精算金入力データ更新",
+     "category": "会計IF / 資材差額調整・鋼鈑精算金入力",
+     "transaction": true,
+     "sqlKinds": {
+      "UPDATE": 1
+     }
+    }
+   ],
+   "confirmDialogs": 3
+  },
+  {
+   "screen": "部品買入特調単価",
+   "flowCalls": [],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "特定工数データ",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "get/01KTB0601YF7155PRNGGG66HMW",
+     "flowId": "01KTB0601YF7155PRNGGG66HMW",
+     "flowName": "特定工数検索",
+     "category": "会計IF / 特定工数",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": null,
+     "method": "GET",
+     "route": "tmh_acif_accounting_interface_periods",
+     "flowId": "01KSHRTBEE5TJRCR8EAQNZP6Z6",
+     "flowName": "会計IF期間マスタデータ取得",
+     "category": "会計IF / 共通",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "delete",
+     "method": "POST",
+     "route": "tmh_ka_tokuteikousuu/delete",
+     "flowId": "01KWDQSCVR58HXFFFFJGMQHREE",
+     "flowName": "特定工数削除",
+     "category": "会計IF / 特定工数",
+     "transaction": true,
+     "sqlKinds": {
+      "DELETE": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_ka_tokuteikousuu/check",
+     "flowId": "01KWBGKNQPW5RJ9HAEKHCWPTNM",
+     "flowName": "特定工数チェック",
+     "category": "会計IF / 特定工数",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 3
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_ka_tokuteikousuu/new",
+     "flowId": "01KWDN5G4DGGN04PZMVJE7MYXN",
+     "flowName": "特定工数登録",
+     "category": "会計IF / 特定工数",
+     "transaction": true,
+     "sqlKinds": {
+      "INSERT": 1
+     }
+    },
+    {
+     "op": "update",
+     "method": "PUT",
+     "route": "tmh_ka_tokuteikousuu/edit",
+     "flowId": "01KWG261CQQSACF5ZJQC0QMJAY",
+     "flowName": "特定工数更新",
+     "category": "会計IF / 特定工数",
+     "transaction": true,
+     "sqlKinds": {
+      "UPDATE": 1
+     }
+    }
+   ],
+   "confirmDialogs": 3
+  },
+  {
+   "screen": "加工不良データ",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "GET",
+     "route": "tmh_acif_processing_defect_quantities",
+     "flowId": "01KXFH6ZP4FW1RMKVRQ7A4G01T",
+     "flowName": "加工不良データ入力検索",
+     "category": "会計IF / 加工不良データ入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": null,
+     "method": "GET",
+     "route": "tmh_acif_accounting_interface_periods",
+     "flowId": "01KSHRTBEE5TJRCR8EAQNZP6Z6",
+     "flowName": "会計IF期間マスタデータ取得",
+     "category": "会計IF / 共通",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    },
+    {
+     "op": "delete",
+     "method": "POST",
+     "route": "tmh_ka_kakoufuryousuryou/delete",
+     "flowId": "01KWG27MD9DX0HNKCJX466AQ2R",
+     "flowName": "加工不良データ入力削除",
+     "category": "会計IF / 加工不良データ入力",
+     "transaction": true,
+     "sqlKinds": {
+      "DELETE": 1
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_ka_kakoufuryousuryou/check",
+     "flowId": "01KWG292EKX0S40WH2D1W5RJQW",
+     "flowName": "加工不良データ入力チェック",
+     "category": "会計IF / 加工不良データ入力",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 3
+     }
+    },
+    {
+     "op": "insert",
+     "method": "POST",
+     "route": "tmh_ka_kakoufuryousuryou/new",
+     "flowId": "01KWG23A7RK9C8PAC4VWE4T1XY",
+     "flowName": "加工不良データ入力登録",
+     "category": "会計IF / 加工不良データ入力",
+     "transaction": true,
+     "sqlKinds": {
+      "INSERT": 1
+     }
+    },
+    {
+     "op": "update",
+     "method": "PUT",
+     "route": "tmh_ka_kakoufuryousuryou/edit",
+     "flowId": "01KWDN1E0DXHXRZTCN0DD304XE",
+     "flowName": "加工不良データ入力更新",
+     "category": "会計IF / 加工不良データ入力",
+     "transaction": true,
+     "sqlKinds": {
+      "UPDATE": 1
+     }
+    }
+   ],
+   "confirmDialogs": 3
+  },
+  {
+   "screen": "部品売上外販品数量分割（月次）",
+   "flowCalls": [],
+   "confirmDialogs": 0
+  },
+  {
+   "screen": "部品売上単価",
+   "flowCalls": [
+    {
+     "op": "search",
+     "method": "POST",
+     "route": "01KT6B414B6WSSK30KGDQVE86B/getList",
+     "flowId": "01KT5NYWR0DRZMG9X7DMQB6R6R",
+     "flowName": "部品売上単価マスタ一覧取得",
+     "category": "会計IF / 部品売上単価マスタメンテナンス",
+     "transaction": true,
+     "sqlKinds": {
+      "SELECT": 1
+     }
+    }
+   ],
+   "confirmDialogs": 0
+  }
+ ]
+}

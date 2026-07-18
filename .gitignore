@@ -38,3 +38,6 @@ _work/
 
 # --- TALON 製品マニュアル(ベンダー提供・大容量・参照用のためGit管理外) -----
 talon/マニュアル/
+
+# --- LogicDesigner 全テナントダンプ(41MB・大容量。トリム版を使用) ----------
+intra-mart/logic-designer/TMH/im_logicdesigner-data.zip
